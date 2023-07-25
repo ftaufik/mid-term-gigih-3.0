@@ -1,0 +1,198 @@
+use mid_term;
+
+db.videos.insertMany([
+    {
+        urlImageThumbnail: "https://i.pinimg.com/236x/79/27/7d/79277de1fe5c2d85df96f1425820f04b.jpg"
+    },
+    {
+        urlImageThumbnail: "https://i.pinimg.com/236x/27/be/67/27be6798108b7cfc4f157b0070f35cae.jpg"
+    },
+    {
+        urlImageThumbnail: "https://i.pinimg.com/236x/f5/3b/06/f53b06dc98d1047f41602e25e6c97454.jpg"
+    },
+    {
+        urlImageThumbnail: "https://i.pinimg.com/236x/91/94/3e/91943e21634a879c07917afa18b35e13.jpg"
+    },
+]);
+
+db.products.insertMany([
+    {
+        productLink: "https://i.pinimg.com/236x/6f/db/d0/6fdbd044f129f1c19436079c6f0fda2c.jpg",
+        title: "Vintage-Dresses-Cocktail-Black",
+        price: 999000,
+        videoId: "64be4cc179f9c19ca0aea149"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/aa/53/c8/aa53c82a6578f04654620c37b2b60512.jpg",
+        title: "Summer-wedding-guest-attire",
+        price: 2500000,
+        videoId: "64be4cc179f9c19ca0aea149"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/89/e8/44/89e844bc1a655b12d28513af8a3840fe.jpg",
+        title: "formal-wedding-guest-dress",
+        price: 1000000,
+        videoId: "64be4cc179f9c19ca0aea149"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/ee/82/19/ee82195b99cf170c9fec636a9a3380fe.jpg",
+        title: "spring-and-autumn-pure-color-chiffon-long-sleeve",
+        price: 1250000,
+        videoId: "64be4cc179f9c19ca0aea149"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/cb/90/c4/cb90c425dff12f64421642e3ebc6fe45.jpg",
+        title: "Atomic-Habits",
+        price: 255000,
+        videoId: "64be4cd679f9c19ca0aea14b"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/11/eb/25/11eb252a18738c71703f618c2143c08d.jpg",
+        title: "clean-code-Robert.C.Martin",
+        price: 350000,
+        videoId: "64be4cd679f9c19ca0aea14b"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/ee/2f/c9/ee2fc907dc1689b899afa5563001c531.jpg",
+        title: "The-psychology-of-money-Morgan-Housel",
+        price: 375000,
+        videoId: "64be4cd679f9c19ca0aea14b"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/17/fd/88/17fd88bdfb6c9d768a97c2042f010faa.jpg",
+        title: "The-Art-Of-War-Sun-Tzu",
+        price: 150000,
+        videoId: "64be4cd679f9c19ca0aea14b"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/a3/e8/b2/a3e8b2f594c53a70d8f29891ff956d14.jpg",
+        title: "Sweet-mandarin-orange",
+        price: 75000,
+        videoId: "64be4ce579f9c19ca0aea14d"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/36/ff/62/36ff62310494d61786eeeebb23be36e2.jpg",
+        title: "texas-strawberry",
+        price: 58500,
+        videoId: "64be4ce579f9c19ca0aea14d"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/54/53/6e/54536e51b99f671b5878699f884ecd26.jpg",
+        title: "Miami-avocados-sweet",
+        price: 55000,
+        videoId: "64be4ce579f9c19ca0aea14d"
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/38/c3/97/38c397b039d71b4d35aca523e36e0c51.jpg",
+        title: "Indramayu-Mango-harum-manis",
+        price: 63000,
+        videoId: "64be4ce579f9c19ca0aea14d"
+    },
+    {
+        "productLink": "https://i.pinimg.com/236x/e2/0c/f6/e20cf6115a1eb6fddd07e2ad1814365c.jpg",
+        "title": "florida-red-watermelon",
+        "price": 49000,
+        videoId: "64be4cf279f9c19ca0aea14f"
+    },
+    {
+        "productLink": "https://i.pinimg.com/236x/53/30/aa/5330aa25c1b194bed15e491ce4ca2ee3.jpg",
+        "title": "florida-melon",
+        "price": 47000,
+        videoId: "64be4cf279f9c19ca0aea14f"
+    },
+    {
+        "productLink": "https://i.pinimg.com/236x/3c/54/22/3c54220360d3cbe3039fbad7ba8e48d1.jpg",
+        "title": "florida-grape-purple-red-green",
+        "price": 39000,
+        videoId: "64be4cf279f9c19ca0aea14f"
+    },
+    {
+        "productLink": "https://i.pinimg.com/236x/a0/61/21/a061218a693a6a575f8599793073baf6.jpg",
+        "title": "florida-lime-green",
+        "price": 26000,
+        videoId: "64be4cf279f9c19ca0aea14f"
+    },
+]);
+
+db.comments.insertMany([
+    {
+        username: "taufikfrm",
+        comment: "Beautiful, I think my wife would really suit that dress.",
+        videoId: "64be4cc179f9c19ca0aea149"
+    },
+    {
+        username: "monicasanders00",
+        comment: "OMG it's look cute",
+        videoId: "64be4cc179f9c19ca0aea149"
+    },
+    {
+        username: "valaeriepola22",
+        comment: "I really like the 3rd one, it's cute",
+        videoId: "64be4cc179f9c19ca0aea149"
+    },
+    {
+        username: "kendalSherry1",
+        comment: "All the dress looks beautifull, i want all of them",
+        videoId: "64be4cc179f9c19ca0aea149"
+    },
+    {
+        username: "galihajiii",
+        comment: "",
+        videoId: "64be4cd679f9c19ca0aea14b"
+    },
+    {
+        username: "alamsyahh10",
+        comment: "",
+        videoId: "64be4cd679f9c19ca0aea14b"
+    },
+    {
+        username: "",
+        comment: "",
+        videoId: "64be4cd679f9c19ca0aea14b"
+    },
+    {
+        username: "",
+        comment: "",
+        videoId: "64be4cd679f9c19ca0aea14b"
+    },
+    {
+        username: "",
+        comment: "",
+        videoId: "64be4ce579f9c19ca0aea14d"
+    },
+    {
+        username: "",
+        comment: "",
+        videoId: "64be4ce579f9c19ca0aea14d"
+    },
+    {
+        username: "tommytiurrr",
+        comment: "",
+        videoId: "64be4ce579f9c19ca0aea14d"
+    },
+    {
+        username: "",
+        comment: "",
+        videoId: "64be4ce579f9c19ca0aea14d"
+    },
+    {
+        username: "",
+        comment: "",
+        videoId: "64be4cf279f9c19ca0aea14f"
+    },
+    {
+        username: "",
+        comment: "",
+        videoId: "64be4cf279f9c19ca0aea14f"
+    },
+    {
+        username: "",
+        comment: "",
+        videoId: "64be4cf279f9c19ca0aea14f"
+    },
+    {
+        username: "",
+        comment: "",
+        videoId: "64be4cf279f9c19ca0aea14f"
+    },
+]);
