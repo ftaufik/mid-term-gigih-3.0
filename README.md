@@ -422,3 +422,65 @@ Returns created comment in the system.
     OR
   - **Code:** 500  
     **Content:** `{ message: error.message }`
+
+## **PUT api/v1/comment/update/:id**
+
+Returns updated comment with specified id.
+
+- **URL Params**  
+  _Required:_ `id=[string]`
+- **Data Params**
+
+  ```
+  {
+      comment: string
+  }
+  ```
+
+- **Headers**
+  Content-Type: application/json
+- **Success Response:**
+- **Code:** 200
+  **Content:**
+
+```
+{
+    message: "Comment Deleted",
+    data: { <comment_object> }
+}
+```
+
+- **Error Response:**
+  - **Code:** 404  
+    **Content:** `{ message: "Comment not found" }`
+    OR
+  - **Code:** 500  
+    **Content:** `{ message: error.message }`
+
+## **GET api/v1/comment/delete/:id**
+
+Returns deleted comment in the system.
+
+- **URL Params**  
+  _Required:_ `id=[string]`
+- **Data Params**  
+  None
+- **Headers**  
+  Content-Type: application/json
+- **Success Response:**
+- **Code:** 200  
+  **Content:**
+
+```
+{
+    message: "Comment Deleted",
+    data: { <comment_object> }
+}
+```
+
+- **Error Response:**
+  - **Code:** 404  
+    **Content:** `{ message: "Comment not found" }`  
+    OR
+  - **Code:** 500  
+    **Content:** `{ message: error.message }`
