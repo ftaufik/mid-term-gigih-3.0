@@ -118,7 +118,7 @@ Returns updated video with specified id.
 
 ```
 {
-    message: "Video Posted",
+    message: "Video Updated",
     data: { <video_object> }
 }
 ```
@@ -299,7 +299,7 @@ Returns updated product with specified id.
 
 ```
 {
-    message: "Product Deleted",
+    message: "Product Updated",
     data: { <product_object> }
 }
 ```
@@ -445,7 +445,7 @@ Returns updated comment with specified id.
 
 ```
 {
-    message: "Comment Deleted",
+    message: "Comment Updated",
     data: { <comment_object> }
 }
 ```
