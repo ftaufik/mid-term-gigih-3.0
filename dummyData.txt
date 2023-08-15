@@ -11,6 +11,9 @@ videos.insertMany([
     {
         urlImageThumbnail: "https://i.pinimg.com/236x/91/94/3e/91943e21634a879c07917afa18b35e13.jpg"
     },
+    {
+        urlImageThumbnail: "https://i.pinimg.com/236x/91/94/3e/91943e21634a879c07917afa18b35e13.jpg"
+    },
 ]);
 
 products.insertMany([
@@ -110,87 +113,111 @@ products.insertMany([
         "price": 26000,
         videoId: ""
     },
+    {
+        productLink: "https://i.pinimg.com/564x/8c/cd/6f/8ccd6f93cdabe4ad8e437f8799895b83.jpg",
+        title: "Samsung-S23-Ultra-Cream-8/256GB",
+        price: 13859010,
+        videoId: ""
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/79/91/66/79916600c98ece0c033a57a5b5862f43.jpg",
+        title: "Samsung-S23-Ultra-Green-8/256GB",
+        price: 13859010,
+        videoId: ""
+    },
+    {
+        productLink: "https://i.pinimg.com/564x/b4/4e/41/b44e4167b6509588c2ec85803922ea5c.jpg",
+        title: "Iphone-14-Pro-Max-128GB-Silver",
+        price: 20999000,
+        videoId: ""
+    },
+    {
+        productLink: "https://i.pinimg.com/236x/38/c3/97/38c397b039d71b4d35aca523e36e0c51.jpg",
+        title: "Indramayu-Mango-harum-manis",
+        price: 63000,
+        videoId: ""
+    },
 ]);
 
 comments.insertMany([
     {
-        "username": "taufikfrm",
-        "comment": "Beautiful, I think my wife would really suit that dress.",
+        username: "taufikfrm",
+        comment: "Beautiful, I think my wife would really suit that dress.",
         videoId: ""
     },
     {
-        "username": "monicasanders00",
-        "comment": "OMG it's look cute",
+        username: "monicasanders00",
+        comment: "OMG it's look cute",
         videoId: ""
     },
     {
-        "username": "valaeriepola22",
-        "comment": "I really like the 3rd one, it's cute",
+        username: "valaeriepola22",
+        comment: "I really like the 3rd one, it's cute",
         videoId: ""
     },
     {
-        "username": "kendalSherry1",
-        "comment": "All the dress looks beautifull, i want all of them",
+        username: "kendalSherry1",
+        comment: "All the dress looks beautifull, i want all of them",
         videoId: ""
     },
     {
-        "username": "galihajiii",
-        "comment": "The psychology of money is to over rated I think",
+        username: "galihajiii",
+        comment: "The psychology of money is to over rated I think",
         videoId: ""
     },
     {
-        "username": "alamsyahh10",
-        "comment": "Atomic Habits is a really good book, and now it's time to put into practice what I learned",
+        username: "alamsyahh10",
+        comment: "Atomic Habits is a really good book, and now it's time to put into practice what I learned",
         videoId: ""
     },
     {
-        "username": "firmanTt",
-        "comment": "The Art Of War is book for a man of culture LOL",
+        username: "firmanTt",
+        comment: "The Art Of War is book for a man of culture LOL",
         videoId: ""
     },
     {
-        "username": "pokewar",
-        "comment": "I try to learn coding, is clean code right book for me ?",
+        username: "pokewar",
+        comment: "I try to learn coding, is clean code right book for me ?",
         videoId: ""
     },
     {
-        "username": "kingsmannn",
-        "comment": "I didn't know strawberries grew in Texas. LOL",
+        username: "kingsmannn",
+        comment: "I didn't know strawberries grew in Texas. LOL",
         videoId: ""
     },
     {
-        "username": "queenAwake",
-        "comment": "That avocado is too expensive",
+        username: "queenAwake",
+        comment: "That avocado is too expensive",
         videoId: ""
     },
     {
-        "username": "tommytiurrr",
-        "comment": "I already try the sweet mandarin orange, and true it's really sweet",
+        username: "tommytiurrr",
+        comment: "I already try the sweet mandarin orange, and true it's really sweet",
         videoId: ""
     },
     {
-        "username": "Andrew_Tatee",
-        "comment": "I'm curious about the taste of Indramayu mango",
+        username: "Andrew_Tatee",
+        comment: "I'm curious about the taste of Indramayu mango",
         videoId: ""
     },
     {
-        "username": "MexicanF00ds",
-        "comment": "What is this ? something like a florida store ? LOL",
+        username: "MexicanF00ds",
+        comment: "What is this ? something like a florida store ? LOL",
         videoId: ""
     },
     {
-        "username": "JamaL12",
-        "comment": "Everything is florida in here LOL",
+        username: "JamaL12",
+        comment: "Everything is florida in here LOL",
         videoId: ""
     },
     {
-        "username": "LouisS99",
-        "comment": "I can get a cheaper lime",
+        username: "LouisS99",
+        comment: "I can get a cheaper lime",
         videoId: ""
     },
     {
-        "username": "Vegan4Life",
-        "comment": "The grapes look delicious",
+        username: "Vegan4Life",
+        comment: "The grapes look delicious",
         videoId: ""
     },
 ]);
